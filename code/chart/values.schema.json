@@ -71,9 +71,8 @@
       "pattern": "^[a-z0-9]([-a-z0-9]*[a-z0-9])?(\\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*$"
     },
     "ImageRegistry": {
-      "type": "string",
-      "title": "Image registry",
-      "pattern": "^[\\w-./:]+$"
+      "type": [ "string", "null" ],
+      "title": "Image registry"
     },
     "Domain": {
       "type": "string",
