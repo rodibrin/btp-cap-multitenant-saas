@@ -73,7 +73,7 @@
     "ImageRegistry": {
       "type": "string",
       "title": "Image registry",
-      "pattern": "^[\\w-./:]+$"
+      "pattern": "^[\\w-./:]*$"
     },
     "Domain": {
       "type": "string",
